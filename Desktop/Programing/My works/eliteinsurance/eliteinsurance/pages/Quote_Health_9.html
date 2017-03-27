@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Quote Health</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="../css/bootstrap.min.css">
+  <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../scss/style.scss">
+  <script src="../js/jquery.min.js"></script>
+  <script src="../js/bootstrap.min.js"></script>
+</head>
+<body>
+  
+<div class="container-fluid">
+
+<nav class="about-navbar navbar navbar-default navbar-fixed-top">
+
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#my_navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        </button>
+        <a href="#" class="navbar-brand">elite<span>insurance</span></a>
+    </div>
+
+<div class="collapse navbar-collapse" id="my_navbar">
+    <ul class="nav navbar-nav navbar-right">
+        <li><a href="#">Get A Quote</a></li>
+        <li><a href="#">Your Policy</a></li>
+        <li><a href="#">Claims</a></li>
+        <li><a href="#">Guide</a></li>
+        <li><a href="#">About Elite</a></li>
+        <li><a href="#"><span class="glyphicon glyphicon-search"></span></a></li>
+    </ul>
+</div>
+</nav>
+
+<div class="Get_your container-fluid">
+    <h3 class="text-center" id="title">Specify coverage details</h3>
+    
+    <div class="row">
+        <div class="col-sm-2 first">
+            <div class="row">
+                <button type="submit">1</button>
+                <h4>About you</h4></div>
+            <div class="row">
+                <button type="submit">2</button>
+                <h4>Your cars</h4>
+            </div>
+            <div class="row">
+                <button type="submit">3</button>
+                <h4>Drivers</h4>
+            </div>
+            <div class="row">
+                <button id="active" type="submit">4</button>
+                <h4 id="active2">Coverage</h4>
+            </div>
+        </div>
+        
+        <div class="col-sm-7 second">
+            <div class="row">
+                <br>
+                <div class="row">
+                    <div class="col-md-6 col-sm-5">
+                        <h4>Did you previously have health insurance?</h4>
+                    </div>
+                    <div class="col-md-5 col-sm-6">
+                        <div class="col-xs-6 my_buttons">
+                            <button class="main_button" id="main_button_active" type="submit">Yes</button>
+                        </div>
+                        <div class="col-xs-6 my_buttons">
+                            <button class="main_button" type="submit">No</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="row">
+                    <div class="col-md-6 col-sm-5">
+                        <h4>Policy expiration date</h4>
+                    </div>
+                    <div class="col-md-5 col-sm-6">
+                        <input type="text" placeholder="DD / MM / YYYY">
+                    </div>
+                </div>
+                
+                <div class="row">
+                    <div class="col-md-6 col-sm-5">
+                        <h4>When do you want your new policy to start?</h4>
+                    </div>
+                    <div class="col-md-5 col-sm-6">
+                        <input type="text" placeholder="DD / MM / YYYY">
+                    </div>
+                    <div class="col-sm-1">
+                        <span class="glyphicon glyphicon-question-sign"></span>
+                    </div>
+                </div>
+                
+                <div class="row">
+                    <div class="col-md-6 col-sm-5">
+                        <h4>Area of cover</h4>
+                    </div>
+                    <div class="col-md-5 col-sm-6">
+                        <select class="form-control" id="sel1">
+                            <option>Worldwide</option>
+                            <option>1</option>
+                            <option>2</option>
+                            <option>3</option>
+                        </select>
+                    </div>
+                    <div class="col-sm-1">
+                        <span class="glyphicon glyphicon-question-sign"></span>
+                    </div>
+                </div>
+                
+                <div class="row">
+                    <div class="col-md-6 col-sm-5">
+                        <h4>Preferred Network</h4>
+                    </div>
+                    <div class="col-md-5 col-sm-6">
+                        <select class="form-control" id="sel1">
+                            <option>Nextcare + American H</option>
+                            <option>1</option>
+                            <option>2</option>
+                            <option>3</option>
+                        </select>
+                    </div>
+                    <div class="col-sm-1">
+                        <span class="glyphicon glyphicon-question-sign"></span>
+                    </div>
+                </div>
+                
+                <div class="row checkbox_row">
+                    <div class="col-sm-10">
+                        <input id="checkbox" type="checkbox">
+                        <p>Yes, I would like to receive promotional emails which may include information to keep me updated about products, prices or renewal offers.</p>
+                    </div>
+                </div>
+                
+                <div class="row">
+                    <div class="col-sm-12">
+                        <button id="fifth_button" type="submit">Get Quote</button>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+        
+        <div class="col-sm-3 third">
+            <div class="row">
+                <div class="col-lg-7 col-xs-10 col-xs-push-1">
+                    <p id="third_5">If you’d like to make sure a particular
+medical center or hospital is included in
+your coverage, please select the
+appropriate network. To see the list of
+medical centers available within each
+network, visit our <a href="#">network guide</a>.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+</div>
+</body>
+</html>
+

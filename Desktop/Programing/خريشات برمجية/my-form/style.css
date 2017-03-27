@@ -1,0 +1,64 @@
+html, body, h1, h2, h3, h4, ul, ol, li, p, a {
+  padding: 0;
+  border: 0;
+  margin: 0;
+}
+h1 {
+  color: #000000;
+  margin: 0 0 15px 0;
+  text-align: center;
+  font-size:150px;
+}
+li {
+  margin: 5px;
+  font-size:30px;
+}
+body {
+  padding: 0;
+  background: #555555 top left repeat;
+}
+a {
+  margin: 0 0 0 0;
+}
+.nav {
+  padding: 10px;
+  text-align: center;
+}
+.nav li {
+  display: inline;
+  padding: 20px;
+}
+.nav a {
+  color: #ee932a;
+}
+.header {
+  padding: 15px;
+  background: #222222 top left no-repeat;
+}
+.header img {
+  margin: 0 auto 15px auto;
+  display: block;
+}
+.content-section {
+  padding: 15px;
+  width: 450px;
+  margin: 0 auto;
+  background: #ffffff top left repeat;
+}
+.recording-now {
+  width: 440px;
+  height: 990px;
+  background: #ffffff url(https://scontent-fra3-1.xx.fbcdn.net/hphotos-xtp1/v/t1.0-9/12801663_1066881066733859_5936783945095748050_n.jpg?oh=18433fe3f5f05a47d95e8e283a3ee668&oe=577365F0) top left no-repeat;
+  padding: 4px 0 0 10px;
+}
+.recording-now p {
+  color: #ffffff;
+  font-size: 28px;
+}
+footer {
+  background-color:black;
+  color:white;
+  clear:both;
+  text-align:center;
+  padding:5px;	 	 
+}

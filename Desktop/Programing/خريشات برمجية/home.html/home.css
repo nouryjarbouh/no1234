@@ -1,0 +1,51 @@
+body 
+{
+    background-color:#333;
+}
+h2 
+{
+    color:#aaa;
+}
+p
+{
+    color:#aaa;
+    padding:0 0 40px 0;
+}
+.background 
+{
+    background-image:url(images/background.jpg);
+}
+.background h1 
+{
+    padding:300px 0 0 0;
+    margin:20px;
+    border-style:groove;
+    border-bottom:none;
+    font-size:100px;
+    text-align:center;
+    color:#f5f5f5;
+}
+.section-1 h1
+{
+    margin-top:40px;
+    padding:30px 0;
+    border-style:outset;
+    border-color:#666;
+    font-size:70px;
+    text-align:center;
+    color:#f5f5f5;
+}
+
+.vertical_line
+{
+    height:400px;
+    width:1px;
+    background:#fff;
+    margin: 20px 0 0 106%;
+}
+.back background
+{
+    width: 50px;
+    color: Red;
+    height: 50px;
+}

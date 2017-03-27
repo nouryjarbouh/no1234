@@ -1,0 +1,29 @@
+html, body, ul, li, h1, h2, h3, h4, h5, h6, a, p, button {
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	font-family: "open sans";
+}
+button {
+	background-color: #000;
+	width: 200px;
+	height: 60px;
+	border: none;
+	font-size: 14px;
+	color: rgb(255, 255, 255);
+	text-transform: uppercase;
+	border-bottom: 1px solid #ddd;
+	outline: none;
+}
+button:hover {
+	background-color: #ddd;
+	color: #000;
+	transition: all .01s;
+}
+#first_button {
+	border-radius: 10px 10px 0 0;
+}
+#last_button {
+	border-radius: 0 0 10px 10px;
+	border: none;
+}

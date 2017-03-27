@@ -1,0 +1,99 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>GTL</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="css/print.css" rel="stylesheet" media="print" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu:400,300" rel='stylesheet' media='screen' />
+    <link href="http://www.gtl.io/css/style.css" rel='stylesheet' media='screen' />
+    <script>
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+	
+	  ga('create', 'UA-64054853-1', 'auto');
+	  ga('send', 'pageview');
+	</script>
+</head>
+<body itemscope itemtype="http://schema.org/WebPage" data-url-search="cautare">
+    <div class="content">
+        <header>
+            <a itemscope itemtype="http://schema.org/LocalBusiness" class="logo" href="http://gtl.io/" title=""><img itemprop="image" src="http://www.gtl.io/img/gtl_logo.png" alt="Logo" /> <span itemprop="name">GTL</span></a>
+        </header>
+
+        <section>
+            <h1>GTL is focused on building cloud software that introduce a whole new agility to online businesses.</h1>
+            <h2>Currently GTL software is available to the clients of its product agency <a href="http://mokus.io/" title="Mokus">Mokus.</a></h2>
+            <img class="main_img" src="http://www.gtl.io/img/main_img.png" alt="" />
+        </section>
+
+        <section>
+            <p>GTL uses: Scala, a mix of database engines (graph, SQL and document based), spark, custom designed statistical models, a state of the art micro services architecture, and a bunch of machine learning algorithms.</p>
+            <p>GTL's approach is an integrated platform that manages customer primary data, product development tech, hardware and secondary data together which enables the software to be intelligent enough to implement product optimisations at unmatched speed.</p>
+            <p>Leave your email to stay up to date or email us at <a href="mailto:rima@gtl.io" title="rima@gtl.io">rima@gtl.io</a></p>
+        </section>
+        <section>
+            <form action="#" enctype="text/plain" id="contactform">
+                <input type="text" id="namefld" name="name" placeholder="Full Name">
+                <input type="text" name="email" id="emailfld" placeholder="Email">
+                <input type="text" name="company" id="companyfld" placeholder="Company">
+                <input type="text" name="country" id="countryfld" placeholder="Country">
+                <input type="button" id="submit" value="Keep me posted">
+              <div id="success" style="color:red;"></div>
+            </form>
+        </section>
+
+        <footer>
+            <p><img src="http://www.gtl.io/img/footer_heart.png" /> from the GTL team</p>
+        </footer>
+    </div>
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+        <script>
+            $(document).ready(function(){
+            $('#submit').click(function(){
+            var name = $('#namefld');
+        var email = $('#emailfld');
+        var company = $('#companyfld');
+        var country = $('#countryfld');
+        if(name.val() == ''){
+            alert('Please enter your full name.');
+            name.focus();
+            return false;
+        }
+        if(email.val() == ''){
+            alert('Please enter your email.');
+            email.focus();
+            return false;
+        }
+        if(company.val() == ''){
+            alert('Please enter your company name.');
+            company.focus();
+            return false;
+        }
+        if(country.val() == ''){
+            alert('Please enter your country.');
+            country.focus();
+            return false;
+        }
+        $.post("send.php", $("#contactform").serialize(),  function(response) {
+				$('#success').html(response);
+				$('#contactform').find("input[type=text], textarea").val("");
+            });
+            return false;
+          });
+            
+            });
+        </script>
+         <script>
+            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+            e.src='//www.google-analytics.com/analytics.js';
+            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+            ga('create','UA-XXXXX-X');ga('send','pageview');
+        </script>
+</body>
+</html>

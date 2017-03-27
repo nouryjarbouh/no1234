@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Noury</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="style.css" rel="stylesheet" media="screen">
+<script src="https://maps.googleapis.com/maps/api/js"></script>
+</head>
+
+<body>
+
+<div id="myNav" class="overlay">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <div class="overlay-content">
+    <a href="#">About</a>
+    <a href="#">Services</a>
+    <a href="#">faq</a>
+    <a href="#">Contact</a>
+  </div>
+</div>
+
+<div class="container">
+<div class="slideshow">
+
+<div class="mySlides fade slide1">
+  <div class="page_name">
+  ME
+  </div>
+  <span id="open" onclick="openNav()">&#9776;</span>
+  <div class="Menu">
+      <ul>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Services</a></li>
+      <li><a href="#">faq</a></li>
+      <li><a href="#">Contact</a></li>
+      </ul>
+  </div>
+</div>
+
+<div class="mySlides fade slide2">
+  <div class="page_name">
+  MY LIFE
+  </div>
+  <span id="open2" onclick="openNav()">&#9776;</span>
+  <div class="Menu">
+      <ul>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Services</a></li>
+      <li><a href="#">faq</a></li>
+      <li><a href="#">Contact</a></li>
+      </ul>
+  </div>
+</div>
+
+<a class="prev" onclick="plusSlides(-1)">&lsaquo;</a>
+<a class="next" onclick="plusSlides(1)">&rsaquo;</a>
+
+</div>
+<br>
+
+<div>
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+</div>
+
+<!-- tabs -->
+
+<h1 id="top">informations about me</h1>
+<h4 id="top">(click on any one please)</h4>
+<ul class="tab">
+  <li><a class="tablinks" onclick="openCity(event, 'first')">first one</a></li>
+  <li><a class="tablinks" onclick="openCity(event, 'second')">second one</a></li>
+  <li><a class="tablinks" onclick="openCity(event, 'third')">third one</a></li>
+</ul>
+<div id="first" class="tabcontent">
+  <h3>first one</h3>
+  <p id="top">this is first information about me</p>
+</div>
+
+<div id="second" class="tabcontent">
+  <h3>second one</h3>
+  <p id="top">this is second information about me</p>
+</div>
+
+<div id="third" class="tabcontent">
+  <h3>third one</h3>
+  <p id="top">this is third information about me</p>
+</div>
+
+<!-- accordion -->
+
+<div class="accordions">
+<h1 id="top">informations about me</h1>
+<h4 id="top">(in accordion)</h4>
+<button class="accordion">first one</button>
+<div class="panel">
+  <p>this is first information about me</p>
+</div>
+
+<button class="accordion">second one</button>
+<div class="panel">
+  <p>this is second information about me</p>
+</div>
+
+<button class="accordion">third one</button>
+<div id="foo" class="panel">
+  <p>this is third information about me</p>
+</div>
+</div>
+
+<!-- Filter/Search List -->
+
+<div class="filter">
+<h2>Who We Are</h2>
+
+<input type="text" id="myInput" onkeyup="search()" placeholder="Search.." title="Type in a name">
+
+<ul id="myUL">
+  <li><a class="header">N</a></li>
+  <li><a href="#">Noury</a></li>
+  <li><a href="#">Naroto</a></li>
+
+  <li><a class="header">R</a></li>
+  <li><a href="#">Rima</a></li>
+  <li><a href="#">Renna</a></li>
+
+  <li><a class="header">W</a></li>
+  <li><a href="#">Waqas</a></li>
+  <li><a href="#">Waleed</a></li>
+  <li><a href="#">Waad</a></li>
+</ul>
+
+<h2>Filter Tables</h2>
+
+<input type="text" id="myInput2" onkeyup="table()" placeholder="Search .." title="Type in a name">
+
+<table id="myTable">
+  <tr class="header">
+    <th style="width:60%;">Name</th>
+    <th style="width:40%;">Country</th>
+  </tr>
+  <tr>
+    <td>abc</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>def</td>
+    <td>2</td>
+  </tr>
+  <tr>
+    <td>ghi</td>
+    <td>3</td>
+  </tr>
+  <tr>
+    <td>abc def ghi</td>
+    <td>4</td>
+  </tr>
+  <tr>
+    <td>jkl</td>
+    <td>5</td>
+  </tr>
+  <tr>
+    <td>mno</td>
+    <td>6</td>
+  </tr>
+  <tr>
+    <td>pqr</td>
+    <td>7</td>
+  </tr>
+  <tr>
+    <td>jkl mno pqr</td>
+    <td>8</td>
+  </tr>
+</table>
+
+</div>
+
+<!-- Bar -->
+
+<div class="bar">
+<h1>click on the button "<span>Download</span>" please</h1>
+<h4>(It will takes around a minute)</h4>
+
+<div id="myProgress">
+  <div id="myBar"></div>
+</div>
+
+<br>
+<button onclick="move()">Download</button>
+</div>
+
+<!-- tooltip -->
+
+<div class="tool">
+    <h1>tooltip & popup</h1>
+    <div class="tooltip">tooltip
+      <span class="tooltiptext">Tooltip</span>
+    </div>
+<br>
+<div class="popup" onclick="myPopup()">Click me to toggle the popup!
+  <span class="popuptext" id="myPopup">A Simple Popup!</span>
+</div>
+</div>
+
+<!-- map -->
+
+<div class="map">
+<h1>Visit us</h1>
+<div class="the_map" id="map"></div>
+</div>
+
+<!-- Calendar -->
+
+<div class="calendar">
+<h1>Our Calendar</h1>
+
+<div class="month">
+  <ul>
+    <li style="text-align:center">
+      August<br>
+      <span style="font-size:18px">2016</span>
+    </li>
+  </ul>
+</div>
+
+<ul class="weekdays">
+  <li>Mo</li>
+  <li>Tu</li>
+  <li>We</li>
+  <li>Th</li>
+  <li>Fr</li>
+  <li>Sa</li>
+  <li>Su</li>
+</ul>
+
+<ul class="days">
+  <li>1</li>
+  <li>2</li>
+  <li>3</li>
+  <li>4</li>
+  <li>5</li>
+  <li>6</li>
+  <li>7</li>
+  <li>8</li>
+  <li>9</li>
+  <li>10</li>
+  <li>11</li>
+  <li>12</li>
+  <li>13</li>
+  <li><span class="active">14</span></li>
+  <li>15</li>
+  <li>16</li>
+  <li>17</li>
+  <li>18</li>
+  <li>19</li>
+  <li>20</li>
+  <li>21</li>
+  <li>22</li>
+  <li>23</li>
+  <li>24</li>
+  <li>25</li>
+  <li>26</li>
+  <li>27</li>
+  <li>28</li>
+  <li>29</li>
+  <li>30</li>
+  <li>31</li>
+</ul>
+</div>
+
+<!-- Responsive Table -->
+
+<h2>Responsive Table</h2>
+
+<div class="Responsive_Table">
+<div style="overflow-x:auto;">
+  <table>
+    <tr>
+      <th>First Name</th>
+      <th>Last Name</th>
+      <th>Points</th>
+      <th>Points</th>
+      <th>Points</th>
+      <th>Points</th>
+      <th>Points</th>
+      <th>Points</th>
+      <th>Points</th>
+      <th>Points</th>
+      <th>Points</th>
+      <th>Points</th>
+      <th>Points</th>
+      <th>Points</th>
+      <th>Points</th>
+      <th>Points</th>
+    </tr>
+    <tr>
+      <td>X1</td>
+      <td>Y1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>X2</td>
+      <td>Y2</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>X3</td>
+      <td>Y3</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+
+    </tr>
+  </table>
+</div>
+</div>
+
+<!-- Image Effects -->
+
+<div class="Image_Effects">
+<img src="images/laptop_2_40.jpg">
+</div>
+
+<!-- dropdown -->
+
+<div class="dropdowns">
+<div class="dropdown1">
+  <button class="dropbtn1">Hover Dropdown</button>
+  <div class="dropdown-content1">
+    <a href="#">1</a>
+    <a href="#">2</a>
+    <a href="#">3</a>
+  </div>
+</div>
+
+<div class="dropdown">
+<button onclick="dropdown()" class="dropbtn">Click Dropdown</button>
+  <div id="myDropdown" class="dropdown-content">
+    <a href="#">1</a>
+    <a href="#">2</a>
+    <a href="#">3</a>
+  </div>
+</div>
+</div>
+
+<!-- Animated Buttons -->
+
+<div class="Animated_Buttons">
+    <button class="Animated_1">Click Me</button>
+    <br><br>
+    <button class="Animated_2"><span>Hover</span></button>
+    <br><br>
+    <button class="Animated_3">Click Me</button>
+</div>
+
+<!-- switch -->
+
+<label class="switch">
+  <input type="checkbox">
+  <div class="slider round"></div>
+</label>
+
+<label class="switch">
+  <input type="checkbox" checked>
+  <div class="slider round"></div>
+</label>
+
+<!-- modal -->
+
+<h1>Our Modal</h1>
+
+<button id="myBtn">Open Modal</button>
+
+<div id="myModal" class="modal">
+
+  <div class="modal-content">
+    <div class="modal-header">
+      <span class="close">&times;</span>
+      <h2>Our Modal</h2>
+    </div>
+    <div class="modal-body">
+      <p>FIRST JAVASCRIPT PAGE</p>
+    </div>
+    <div class="modal-footer">
+      <h3>Our Modal</h3>
+    </div>
+  </div>
+
+</div>
+
+<!-- loader -->
+
+<div class="loader"></div>
+
+<!-- Animated Menu Icon -->
+
+<div class="icon">
+<p>Click on the Menu Icon to transform it to "X":</p>
+<div class="container_icon" onclick="icon(this)">
+  <div class="bar1"></div>
+  <div class="bar2"></div>
+  <div class="bar3"></div>
+</div>
+</div>
+
+<!-- JavaScript Animations -->
+
+<div class="animation">
+<p>
+<button onclick="myMove()">Click to move square</button>
+</p>
+
+<div id ="myContainer">
+<div id ="myAnimation"></div>
+</div>
+</div>
+
+<!-- Hide_Show -->
+
+<div class="hide">
+<button onclick="Hide_Show()">Hide & Show</button>
+<div id="hide">
+Hide & Show
+</div>
+</div>
+<!-- Contact Chips-->
+
+<div class="chip">
+  <img src="images/img_avatar.png" alt="Person" width="96" height="96">
+  John Doe
+  <span class="closebtn_chips" onclick="this.parentElement.style.display='none'">&times;</span>
+</div>
+
+<!-- Card -->
+
+<h2>Card</h2>
+
+<div class="card">
+  <img src="images/img_avatar.png" alt="Avatar" style="width:100%">
+  <div class="container_card">
+    <br>
+    <h4><b>John Doe</b></h4>
+    <br>
+    <p>Architect & Engineer</p>
+    <br>
+  </div>
+</div>
+
+<!-- Alert Messages -->
+
+<div class="alert_message">
+  <span class="closebtn_alert" onclick="this.parentElement.style.display='none';">&times;</span>
+  Click on the "x" symbol to close the alert message.
+</div>
+
+<!-- Notes -->
+
+<div class="notes">
+  <p><strong>Notes ...</p>
+</div>
+
+<!-- Pagination -->
+
+<div class="mother_pagination">
+
+<ul class="pagination">
+  <li><a href="#">&lt;</a></li>
+  <li><a href="#">1</a></li>
+  <li><a class="active" href="#">2</a></li>
+  <li><a href="#">3</a></li>
+  <li><a href="#">4</a></li>
+  <li><a href="#">5</a></li>
+  <li><a href="#">6</a></li>
+  <li><a href="#">&gt;</a></li>
+</ul>
+</div>
+
+
+</div>
+<!-- footer -->
+
+<div class="footer">
+    <h1>FOOTER</h1>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
+

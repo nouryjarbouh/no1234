@@ -1,0 +1,70 @@
+
+h1 {
+  color: #fff;
+  margin: 0 0 55px 0;
+  text-align: center;
+  font-size:150px;
+  overflow: hidden;
+}
+.content-section {
+  padding: 15px;
+  width: 550px;
+  margin: 0 auto;
+  background: #000 top left repeat;
+  height: 800px;
+  text-align:center;
+  overflow: hidden;
+}
+
+
+
+
+.content {
+    position:relative;
+	overflow: hidden;
+}
+a {
+    text-decoration:none;
+	overflow: hidden;
+}
+.btn {
+  background-color: #00A0D6;
+  color: #FFF;
+  transition: all 0.4s;
+  border: none;
+  padding:10px;
+  border-radius: 25px;
+  overflow: hidden;
+}
+.btn:active,
+.btn:focus,
+.btn:hover {
+  background-color: #007DA7;
+  color: #E3E3E3;
+  overflow: hidden;
+}
+.btn .content {
+  transition: top .3s;
+  overflow: hidden;
+}
+.top.content {
+  top: 0px;
+  margin:0 10px 0 15px;
+  overflow: hidden;
+}
+.bottom.content {
+  top: 50px;
+  margin: 0 0 0 -55px;
+  overflow: hidden;
+}
+.btn:hover .top {
+  top: -50px;
+  overflow: hidden;
+}
+.btn:hover .bottom {
+  top: 0px;
+  overflow: hidden;
+}
+.content {
+    overflow: hidden;
+}

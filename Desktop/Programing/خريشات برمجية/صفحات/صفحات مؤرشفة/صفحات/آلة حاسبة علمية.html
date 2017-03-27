@@ -1,0 +1,173 @@
+<html>
+<head>
+<style type="text/css">
+h1{text-shadow:5px 5px 1px blue, 7px 7px 9px red}
+h2{text-shadow:2px 2px 2px red}
+h3{font-size:50pt}
+h3{text-shadow:5px 5px 5px yellow}
+</style>
+<script language=javascript>
+<!--
+function plus(){
+var z;
+var x=document.ff.a.value;
+var y=document.ff.b.value;
+z=Number(x)+Number(y);
+document.ff.c.value=z;
+}
+function w(){
+var z;
+var x=document.ff.a.value;
+var y=document.ff.b.value;
+z=Number(x)-Number(y);
+document.ff.c.value=z;
+}
+function menus(){
+var z;
+var x=document.ff.a.value;
+var y=document.ff.b.value;
+z=Number(x)*Number(y);
+document.ff.c.value=z;
+}
+function q(){
+var z;
+var x=document.ff.a.value;
+var y=document.ff.b.value;
+z=Number(x)/Number(y);
+document.ff.c.value=z;
+}
+function MAX(){
+var z;
+var x=document.ff.a.value;
+var y=document.ff.b.value;
+z=Math.max(Number(x),Number(y));
+document.ff.c.value=z;
+}
+function MIN(){
+var z;
+var x=document.ff.a.value;
+var y=document.ff.b.value;
+z=Math.min(Number(x),Number(y));
+document.ff.c.value=z;
+}
+
+
+
+function sin(){
+var z;
+var x=document.ff.a.value;
+z=Math.sin(Number(x));
+document.ff.c.value=z;
+}
+function cos(){
+var z;
+var x=document.ff.a.value;
+z=Math.cos(Number(x));
+document.ff.c.value=z;
+}
+function tan(){
+var z;
+var x=document.ff.a.value;
+z=Math.tan(Number(x));
+document.ff.c.value=z;
+}
+function sqrt(){
+var z;
+var x=document.ff.a.value;
+z=Math.sqrt(Number(x));
+document.ff.c.value=z;
+}
+function Pow(){
+var z;
+var x=document.ff.a.value;
+z=Math.pow(Number(x),2);
+document.ff.c.value=z;
+}
+
+
+function pi(){
+var z;
+var x=document.ff.a.value;
+z=Math.PI;
+document.ff.c.value=z;
+}
+function e(){
+var z;
+var x=document.ff.a.value;
+z=Math.E;
+document.ff.c.value=z;
+}
+function log(){
+var z;
+var x=document.ff.a.value;
+z=Math.log(Number(x));
+document.ff.c.value=z;
+}
+function exp(){
+var z;
+var x=document.ff.a.value;
+z=Math.exp(Number(x));
+document.ff.c.value=z;
+}
+//-->
+</script>
+</head>
+<body>
+<blockquote>
+<form name="ff">
+
+<center><font size=7>
+<br>
+<h1>ТсѓммммЩ ЭѓЧгімммммммШѓЩ ксуіммммммммэѓЩ</h1>
+</font>
+<h2>
+Чсбоу ЧсУцс:<input type="text" name="a"/>
+<br>
+Чсбоу ЧсЫЧфэ:<input type="text" name="b"/>
+<br>
+<br>
+<font size=7>
+ЧскусэЩ / ЧсХЬбЧС
+</font>
+<br>
+
+
+<input type=button onclick=plus() value="Ьук">
+<input type=button onclick=w() value="ибЭ">
+<input type=button onclick=menus() value="жбШ">
+<input type=button onclick=q() value="огуЩ">
+<input type=button onclick=MAX() value="max">
+<input type=button onclick=MIN() value="min">
+
+<br>
+ХЬбЧСЧЪ ксь Чсбоу ЧсУцс
+<br />
+
+
+<input type=button onclick=sin() value="sin">
+<input type=button onclick=cos() value="cos">
+<input type=button onclick=tan() value="tan">
+
+<br>
+
+<input type=button onclick=sqrt() value="Ьаб">
+<input type=button onclick=Pow() value="ЪбШэк">
+<input type=button onclick=log() value="ln">
+<input type=button onclick=exp() value="exp">
+<br>
+ЫцЧШЪ
+<br />
+
+<input type=button onclick=pi() value="PI">
+<input type=button onclick=e() value="e">
+<br>
+<br>
+<h3>ЧсфЪэЬЩ</h3>
+<br />
+<input type="text" name="c"/>
+</center>
+
+<br>
+</form>
+</body>
+</html>

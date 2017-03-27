@@ -1,0 +1,17 @@
+<?xml version="1.0"?><svg width="640" height="480" xmlns="http://www.w3.org/2000/svg">
+ <title>pause</title>
+ <defs>
+  <filter id="filter3316">
+   <feGaussianBlur stdDeviation="0.586716" id="feGaussianBlur3318"/>
+  </filter>
+ </defs>
+ <g>
+  <title>Layer 1</title>
+  <g id="g3356">
+   <path fill="#000000" fill-rule="evenodd" stroke="#000000" stroke-miterlimit="4" stroke-dashoffset="0" filter="url(#filter3316)" id="path2383" d="m341.744019,238.641998a108.544197,108.5438 0 1 1 -217.088013,0a108.544197,108.5438 0 1 1 217.088013,0z"/>
+   <rect x="247.988723" fill="#e6e6e6" fill-rule="evenodd" stroke="#ffffff" stroke-width="0.93142" stroke-miterlimit="4" stroke-dashoffset="0" id="rect3237" y="181.859161" height="113.565734" width="34.42287"/>
+   <rect x="183.988723" fill="#e6e6e6" fill-rule="evenodd" stroke="#ffffff" stroke-width="0.931418" stroke-miterlimit="4" stroke-dashoffset="0" id="rect3239" y="181.859741" height="113.565162" width="34.422878"/>
+   <path opacity="0.5" fill="#ffffff" fill-rule="evenodd" stroke="#000000" stroke-miterlimit="4" stroke-dashoffset="0" stroke-opacity="0.182573" id="path3245" d="m232.226013,132.372009c-58.26001,0 -105.562012,48.645996 -105.562012,108.561981c93.798035,-21.207977 116.641968,-21.487976 211.062012,0c0,-59.915985 -47.238037,-108.561981 -105.5,-108.561981z"/>
+  </g>
+ </g>
+</svg>

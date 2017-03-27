@@ -1,0 +1,2072 @@
+/* --------------------------------- Home style --------------------------------- */
+.home-navbar {
+  border-bottom: 2px solid #444;
+}
+.home-navbar a {
+  color: #1566c3;
+}
+.home-navbar .navbar-brand {
+  margin-left: 30px;
+  font-size: 20px;
+  font-weight: 600;
+  color: #1566c3;
+}
+.home-navbar .navbar-brand:hover {
+  color: #1046a3;
+}
+.home-navbar .navbar-brand span {
+  font-weight: 100;
+}
+.home-navbar .collapse .navbar-right {
+  padding-right: 36px;
+}
+.home-navbar .collapse .navbar-right li {
+  font-size: 14px;
+  padding: 0 !important;
+  border: none;
+}
+
+#active {
+  font-weight: 600;
+}
+
+#my_active {
+  font-weight: 600;
+  text-decoration: underline;
+}
+
+.main-contant {
+  height: 486px;
+  border: 2px solid #444;
+  margin: -15px;
+  padding-top: 100px;
+  text-align: center;
+  background-color: #edeeef;
+}
+.main-contant input {
+  width: 100%;
+  height: 50px;
+  margin-top: 30px;
+  border: 1px solid #000;
+  padding-left: 20px;
+  outline: none;
+}
+
+.better {
+  height: auto;
+  padding-top: 40px;
+  text-align: center;
+}
+.better h4 {
+  font-weight: 100;
+}
+.better .first, .better .second, .better .third {
+  height: auto;
+}
+.better .first .box, .better .second .box, .better .third .box {
+  border: 1px solid #000;
+  height: auto;
+  margin: 30px 10px 40px;
+  padding: 30px 0 50px;
+}
+.better .first .box h3, .better .second .box h3, .better .third .box h3 {
+  margin: 30px 0 15px;
+}
+.better .first .box h5, .better .second .box h5, .better .third .box h5 {
+  line-height: 30px;
+  margin-bottom: 40px;
+}
+.better .first .box a, .better .second .box a, .better .third .box a {
+  color: #000;
+}
+.better .first .box a:hover, .better .second .box a:hover, .better .third .box a:hover {
+  color: #00f;
+}
+
+.accidents {
+  height: auto;
+  border: 2px solid #444;
+  margin: 0 -15px;
+  padding: 140px 0;
+  text-align: left;
+  background-color: #edeeef;
+}
+.accidents h3 {
+  text-align: left;
+}
+
+.insurance {
+  text-align: center;
+  padding: 30px 0 60px;
+}
+.insurance .box {
+  margin: 20px 0;
+}
+.insurance h5 {
+  line-height: 18px;
+}
+
+.Business {
+  height: auto;
+  text-align: center;
+  margin: 0 -15px;
+  background-color: #edeeef;
+  padding-bottom: 50px;
+}
+.Business .box {
+  border: 1px solid #000;
+  padding: 20px;
+  margin-bottom: 30px;
+  height: 390px;
+}
+.Business h1 {
+  margin-bottom: 30px;
+}
+.Business input {
+  width: 100%;
+  outline: none;
+  border: 1px solid #000;
+  height: 50px;
+  padding-left: 20px;
+  margin-bottom: 30px;
+}
+.Business select {
+  width: 100%;
+  outline: none;
+  border: 1px solid #000;
+  border-radius: 0px;
+  height: 50px;
+  padding-left: 20px;
+  margin-bottom: 30px;
+  color: #aaa;
+}
+.Business select:focus {
+  outline: none;
+  box-shadow: 0 0;
+  border-color: #000;
+}
+.Business select:focus option {
+  border: none;
+  outline: none;
+}
+.Business button {
+  height: 50px;
+  border: none;
+  color: #fff;
+  background-color: #000;
+  border-radius: 3px;
+  outline: none;
+}
+.Business button:hover {
+  background-color: #222;
+}
+
+.primary-footer {
+  height: auto;
+  background-color: #22498e;
+  margin: 0 -15px;
+}
+.primary-footer .container {
+  padding: 40px 0;
+  height: auto;
+}
+.primary-footer .container h5 {
+  color: #c8d5e8;
+  margin-bottom: 24px;
+}
+.primary-footer .container h5 a {
+  color: #c8d5e8;
+}
+.primary-footer .container h5 a:hover {
+  text-decoration: underline;
+}
+.primary-footer .container .footer_right h5 {
+  color: #5a89db;
+}
+
+/* --------------------------------- About style --------------------------------- */
+.navbar-default {
+  border-bottom: none;
+  background-color: #f4f4f4;
+}
+
+.about-navbar a {
+  color: #1566c3;
+}
+.about-navbar .navbar-brand {
+  margin-left: 30px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #1566c3;
+}
+.about-navbar .navbar-brand:hover {
+  color: #1046a3;
+}
+.about-navbar .navbar-brand span {
+  font-weight: 100;
+}
+.about-navbar .collapse {
+  font-size: 14px;
+}
+.about-navbar .collapse .navbar-right {
+  padding-right: 36px;
+}
+.about-navbar .collapse .navbar-right li {
+  font-size: 14px;
+  border: none;
+}
+
+.Insurance {
+  height: auto;
+  margin: 0 -15px;
+  padding: 140px 0;
+  text-align: left;
+  background-color: #edeeef;
+}
+.Insurance p {
+  line-height: 22px;
+}
+
+.Providing {
+  height: auto;
+  margin: 0 -15px;
+  padding: 140px 0;
+  text-align: left;
+  background-color: #fff;
+}
+.Providing h4 {
+  padding-bottom: 10px;
+}
+.Providing p {
+  line-height: 22px;
+}
+
+.Simple {
+  height: auto;
+  margin: 0 -15px;
+  padding: 140px 0;
+  text-align: left;
+  background-color: #f9f9f9;
+}
+.Simple h4 {
+  padding-bottom: 10px;
+}
+.Simple p {
+  line-height: 22px;
+}
+
+.specifically {
+  height: auto;
+  margin: 0 -15px;
+  background-color: #fff;
+  padding: 50px;
+  text-align: center;
+}
+.specifically h3 {
+  margin-bottom: 30px;
+}
+.specifically p, .specifically h4 {
+  text-align: left;
+}
+.specifically .circle {
+  background-color: #000;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  float: right;
+}
+
+.helpful {
+  margin: 0 -15px;
+}
+.helpful .helpful_1 {
+  padding: 160px 0;
+  background-color: #f9f9f9;
+}
+.helpful .helpful_2 {
+  padding: 160px 0;
+  background-color: #edeeef;
+}
+.helpful button {
+  background: none;
+  border: 1px solid #666;
+  padding: 6px 24px;
+  margin-top: 24px;
+  border-radius: 3px;
+}
+.helpful button:hover {
+  color: #000;
+  background-color: #fff;
+}
+
+.get-started {
+  height: auto;
+  text-align: center;
+  margin: 0 -15px;
+  background-color: #fff;
+  padding: 50px;
+}
+.get-started button {
+  height: 50px;
+  border: none;
+  color: #fff;
+  background-color: #000;
+  border-radius: 3px;
+  outline: none;
+  margin-top: 20px;
+  padding: 0 40px;
+}
+.get-started button:hover {
+  background-color: #222;
+}
+
+.footer {
+  background-color: #eee;
+  padding: 10px 0 10px 40px;
+  margin: 0 -15px;
+}
+.footer h6 {
+  margin-top: 20px;
+}
+.footer .navbar-right {
+  margin: 0 30px 0;
+}
+.footer .navbar-right li {
+  font-size: 12px;
+  margin: 0 -6px;
+  border: none;
+}
+.footer .navbar-right li a {
+  color: #555;
+}
+.footer .navbar-right li a:hover {
+  color: #000;
+}
+
+/* --------------------------------- blog style --------------------------------- */
+.blog {
+  height: auto;
+  margin: 0 -15px;
+  padding: 140px 0;
+  background-color: #edeeef;
+}
+.blog li {
+  display: inline-block;
+}
+.blog li a {
+  color: #666;
+}
+.blog li a:hover {
+  color: #000;
+}
+
+.blog-contant {
+  padding: 20px 0 0 0;
+}
+.blog-contant .row {
+  padding-top: 40px;
+}
+.blog-contant .black {
+  height: 500px;
+  background-color: #000;
+  margin: 60px 0 30px 0;
+}
+.blog-contant hr {
+  width: 100%;
+  border-top: 1px solid #000;
+}
+
+.Load {
+  height: auto;
+  text-align: center;
+  margin: 0 -15px;
+  background-color: #fff;
+  padding: 50px;
+  padding-top: 0;
+}
+.Load button {
+  height: 50px;
+  border: none;
+  color: #fff;
+  background-color: #000;
+  border-radius: 3px;
+  outline: none;
+  margin-top: 20px;
+  padding: 0 36px;
+}
+.Load button:hover {
+  background-color: #222;
+}
+
+.blog-footer {
+  margin: 0 -15px;
+  height: auto;
+}
+.blog-footer .left-footer {
+  height: 300px;
+  background-color: #f9f9f9;
+  border-right: 2px solid #fff;
+}
+.blog-footer .right-footer {
+  height: 300px;
+  background-color: #f9f9f9;
+  border-left: 2px solid #fff;
+}
+.blog-footer h3 {
+  padding-top: 60px;
+}
+.blog-footer .col-sm-6 {
+  margin: 0;
+  padding: 0;
+}
+
+/* --------------------------------- Careers style --------------------------------- */
+.Careers {
+  height: auto;
+  margin: 0 -15px;
+  padding: 140px;
+  background-color: #edeeef;
+}
+.Careers button {
+  height: 40px;
+  border: none;
+  color: #fff;
+  background-color: #000;
+  border-radius: 3px;
+  outline: none;
+  margin-top: 10px;
+  padding: 0px 24px;
+}
+.Careers button:hover {
+  background-color: #222;
+}
+
+.Join h3 {
+  margin: 50px 0;
+}
+.Join .box {
+  background-color: #f9f9f9;
+  border: 10px solid #fff;
+  padding-bottom: 30px;
+}
+.Join .box .circle {
+  width: 75px;
+  height: 75px;
+  background-color: #000;
+  border-radius: 50%;
+  margin: 30px auto;
+}
+.Join .box h3 {
+  margin: 30px 0;
+}
+.Join .box a {
+  color: #444;
+}
+.Join .box a:hover {
+  color: #000;
+}
+
+.Benefits {
+  background-color: #f9f9f9;
+  margin: 50px -15px 0;
+  padding: 50px 10px 0;
+}
+.Benefits h3 {
+  margin-bottom: 40px;
+}
+.Benefits .col-sm-6, .Benefits .col-xs-2, .Benefits .col-xs-10 {
+  padding: 0;
+}
+.Benefits .box {
+  margin-bottom: 50px;
+  padding-right: 20px;
+}
+.Benefits .box .circle {
+  width: 30px;
+  height: 30px;
+  background-color: #000;
+  border-radius: 50%;
+  float: left;
+}
+.Benefits .box h4 {
+  margin-top: 0;
+}
+.Benefits .box p {
+  margin-bottom: 40px;
+}
+
+.Join-our-Team {
+  padding-top: 30px;
+}
+.Join-our-Team .text-left {
+  padding-bottom: 120px;
+}
+.Join-our-Team hr {
+  border-top: 1px solid #000;
+}
+.Join-our-Team a {
+  color: #444;
+  margin: 0;
+  padding: 22px 0;
+  transition: all .3s;
+}
+.Join-our-Team a span {
+  position: absolute;
+  right: 40px;
+  transition: all .3s;
+}
+.Join-our-Team a:hover {
+  color: #000;
+  text-decoration: none;
+  background: linear-gradient(to right, #aaa, #fff);
+  padding: 22px 40px;
+}
+.Join-our-Team a:hover span {
+  font-weight: 900;
+}
+
+/* --------------------------------- Careers2 style --------------------------------- */
+.Careers2 {
+  padding: 80px 0 0;
+}
+.Careers2 a {
+  color: #444;
+  font-size: 12px;
+}
+.Careers2 h3 {
+  margin-top: 60px;
+}
+.Careers2 p {
+  margin-bottom: 30px;
+}
+.Careers2 button {
+  height: 46px;
+  border: none;
+  color: #fff;
+  background-color: #000;
+  border-radius: 3px;
+  outline: none;
+  margin-top: -80px;
+  padding: 10px 30px;
+  float: right;
+}
+.Careers2 button:hover {
+  background-color: #222;
+}
+.Careers2 hr {
+  border-top: 1px solid #000;
+}
+.Careers2 h4 {
+  margin-top: 30px;
+}
+
+.Qualifications {
+  background-color: #f9f9f9;
+  padding: 30px 0;
+}
+
+.Apply {
+  padding: 60px 0;
+}
+.Apply h3 {
+  margin-bottom: 30px;
+}
+.Apply input {
+  border: none;
+  border-bottom: 1px solid #000;
+  width: 100%;
+  padding-left: 50px;
+}
+.Apply input:focus {
+  padding-left: 10px;
+  outline: none;
+}
+.Apply .form-group {
+  margin-bottom: 40px;
+}
+.Apply a {
+  color: #000;
+  text-decoration: underline;
+}
+.Apply a:hover {
+  color: #888;
+  text-decoration: none;
+}
+.Apply .second {
+  padding-top: 76px;
+}
+.Apply button {
+  height: 46px;
+  border: none;
+  color: #fff;
+  background-color: #000;
+  border-radius: 3px;
+  outline: none;
+  padding: 10px 30px;
+  float: right;
+}
+.Apply button:hover {
+  background-color: #222;
+}
+
+/* --------------------------------- Claims_1 style --------------------------------- */
+.Report {
+  height: auto;
+  margin: 0 -15px;
+  padding: 80px 0 40px;
+  background-color: #edeeef;
+}
+.Report .Report-left {
+  background-color: #fff;
+  border: 20px solid #edeeef;
+  transition: all .2s;
+}
+.Report .Report-left img {
+  border-radius: 15px;
+}
+.Report .Report-left:hover {
+  color: #00f;
+}
+.Report .Report-right {
+  background-color: #fff;
+  padding: 30px 0;
+  border: 18px solid #edeeef;
+  margin-top: 4px;
+}
+.Report button {
+  padding: 30px 0;
+  background: none;
+  border: none;
+  outline: none;
+}
+
+.Reporting {
+  padding: 40px;
+}
+.Reporting p {
+  font-size: 16px;
+}
+.Reporting .col-md-4 {
+  padding: 20px 0;
+}
+.Reporting .col-md-4 h4 {
+  margin-top: 16px;
+}
+.Reporting .col-md-4 p {
+  font-size: 12px;
+}
+
+.after {
+  margin: 0 -15px;
+  padding: 40px;
+  background-color: #f9f9f9;
+}
+.after img {
+  margin-top: 30px;
+}
+
+.answers {
+  margin: 0 -15px;
+  padding: 30px;
+  background-color: #f2f2f2;
+}
+.answers h3 {
+  margin-bottom: 30px;
+}
+.answers .box {
+  height: auto;
+}
+.answers .box-in {
+  width: 90%;
+  background-color: #fff;
+  height: 160px;
+  margin: 16px auto;
+  border: 1px solid #ccc;
+  text-align: left;
+  padding: 24px;
+}
+.answers .box-in p span {
+  position: absolute;
+  bottom: 40px;
+  right: 60px;
+}
+
+.Track_1 {
+  padding: 20px 20px 50px;
+}
+.Track_1 button {
+  height: 40px;
+  border: none;
+  color: #fff;
+  background-color: #000;
+  border-radius: 3px;
+  outline: none;
+  padding: 0 44px;
+  margin-top: 10px;
+}
+.Track_1 button:hover {
+  background-color: #222;
+}
+
+/* --------------------------------- Claims_2 style --------------------------------- */
+.Report_a_Claim {
+  background-color: #9b9b9b;
+  margin: 50px -15px -10px;
+}
+.Report_a_Claim h3 {
+  padding: 10px;
+}
+
+.Tell {
+  background-color: #edeeef;
+  margin: 0 -15px;
+  padding-bottom: 40px;
+}
+.Tell .row {
+  margin: auto;
+}
+.Tell select {
+  width: 100%;
+  outline: none;
+  border: 1px solid #000;
+  border-radius: 0px;
+  height: 50px;
+  padding-left: 20px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  color: #aaa;
+}
+.Tell select:focus {
+  outline: none;
+  box-shadow: 0 0;
+  border-color: #000;
+}
+.Tell select:focus option {
+  border: none;
+  outline: none;
+}
+.Tell input {
+  width: 100%;
+  outline: none;
+  border: 1px solid #000;
+  height: 50px;
+  padding-left: 20px;
+  margin-bottom: 10px;
+}
+.Tell button {
+  height: 50px;
+  border: none;
+  color: #fff;
+  background-color: #000;
+  border-radius: 3px;
+  outline: none;
+  padding: 0 48px;
+  margin-top: 10px;
+}
+.Tell button:hover {
+  background-color: #222;
+}
+.Tell a {
+  color: #444;
+  text-decoration: underline;
+  font-weight: 600;
+  font-size: 12px;
+}
+.Tell a:hover {
+  color: #000;
+  text-decoration: none;
+}
+
+.Online {
+  padding: 30px 0 80px;
+}
+.Online .row {
+  margin: auto;
+}
+.Online img {
+  margin-top: 50px;
+}
+
+/* --------------------------------- Claims_3 style --------------------------------- */
+.hope {
+  height: auto;
+  margin: 0 -15px;
+  padding: 80px 0 40px;
+  background-color: #edeeef;
+}
+.hope .text-left, .hope .text-right, .hope .text-center {
+  margin-top: 40px;
+}
+.hope .text-center a {
+  font-weight: 100;
+}
+.hope a {
+  color: #444;
+  text-decoration: underline;
+  font-weight: 600;
+}
+.hope a:hover {
+  color: #000;
+  text-decoration: none;
+}
+.hope .Claims_Process {
+  background-color: #e5e5e5;
+  padding: 4px;
+}
+.hope .Claims_Process h4 {
+  color: #000;
+}
+.hope .Claims_Process_content {
+  padding: 0 40px 40px 40px;
+  margin-bottom: 40px;
+  background-color: #fff;
+}
+.hope .Claims_Process_content h5 {
+  margin-bottom: 30px;
+}
+.hope .Claims_Process_content h6 {
+  margin: 4px;
+  color: #666;
+  font-size: 10px;
+}
+.hope button {
+  height: 40px;
+  border: none;
+  color: #fff;
+  background-color: #000;
+  border-radius: 3px;
+  outline: none;
+  padding: 0 44px;
+  margin-top: 10px;
+}
+.hope button:hover {
+  background-color: #222;
+}
+
+#line {
+  text-decoration: underline;
+}
+
+.Still {
+  padding: 30px;
+  background-color: #f9f9f9;
+  margin: 0 -15px;
+}
+
+/* --------------------------------- Claims_4 style --------------------------------- */
+.hope .title {
+  margin-bottom: 40px;
+}
+.hope .title_2 {
+  margin-bottom: 20px;
+}
+.hope .box {
+  background-color: #fff;
+  text-align: right;
+  padding: 12px 40px 12px 20px;
+}
+.hope .box span {
+  color: #aaa;
+  background-color: #edeeef;
+  padding: 12px 15px;
+  border-radius: 50%;
+  margin-left: 30px;
+  font-size: 18px;
+  font-weight: 100;
+}
+.hope .box p {
+  text-align: left;
+  font-size: 12px;
+  margin-top: 4px;
+}
+.hope .Claim {
+  margin: 70px 0 0;
+}
+.hope .Claim h4 {
+  margin-bottom: 20px;
+}
+.hope .Claim .box_2 {
+  background-color: #fff;
+  padding: 20px 40px 4px;
+  margin-bottom: 8px;
+}
+.hope .Claim .box_2 p {
+  text-align: left;
+  font-size: 12px;
+}
+.hope .Claim .box_2 p span {
+  color: #888;
+  font-size: 20px;
+  margin: -6px 20px 0 0;
+}
+.hope .Claim .left {
+  margin-top: 16px;
+}
+.hope .Claim .left button {
+  color: #000;
+  background-color: #fff;
+  border: 1px solid #000;
+  height: 44px;
+  font-size: 12px;
+  padding: 0 30px;
+}
+.hope .Claim .left button:hover {
+  background-color: #f9f9f9;
+}
+.hope .Claim .right {
+  margin-top: 16px;
+  margin-bottom: 80px;
+}
+.hope .Claim .right button {
+  color: #fff;
+  background-color: #c4c4c4;
+  height: 44px;
+  font-size: 12px;
+  padding: 0 40px;
+}
+.hope .Claim .right button:hover {
+  background-color: #bbb;
+}
+
+/* --------------------------------- Claims_5 style --------------------------------- */
+.gray {
+  margin-top: 20px;
+  padding: 14px 28px;
+  background-color: #e5e5e5;
+}
+.gray .gray_2 {
+  height: 100px;
+  background-color: #c4c4c4;
+  border: 10px solid #e5e5e5;
+}
+.gray .gray_2 p {
+  font-size: 9px;
+  text-align: left;
+  margin-top: 10px;
+}
+
+/* --------------------------------- Claims_6 style --------------------------------- */
+.Track {
+  height: auto;
+  margin: 0 -15px;
+  padding: 80px 0 40px;
+  background-color: #edeeef;
+}
+.Track .top {
+  background-color: #e5e5e5;
+  padding: 4px 0;
+  margin-top: 40px;
+}
+.Track .center {
+  background-color: #fff;
+  padding-top: 10px;
+}
+.Track .center p {
+  padding: 0 20px;
+}
+.Track .center p.italic {
+  padding: 0;
+  font-style: italic;
+  font-size: 12px;
+}
+.Track .center .table {
+  border: none;
+  border-left: 20px solid #fff;
+  border-right: 20px solid #fff;
+  margin: 0;
+}
+.Track .center .table th, .Track .center .table td {
+  border: none;
+  text-align: left;
+}
+.Track .center .table .gray1 {
+  background-color: #e5e5e5;
+}
+.Track .center .table .gray2 {
+  background-color: #edeeef;
+}
+.Track .center .gray3 {
+  background-color: #f4f4f4;
+  text-align: left;
+  padding: 10px 10px 1px;
+  margin: 0 20px 30px;
+}
+.Track .bottom {
+  background-color: #f9f9f9;
+  padding: 30px 0 20px;
+}
+.Track .Closed {
+  margin-top: 6px;
+}
+.Track .Want {
+  margin: 80px 20px 40px;
+}
+.Track .Want a {
+  border: 1px solid #000;
+  padding: 6px 20px;
+  border-radius: 20px;
+  font-size: 16px;
+  color: #000;
+  margin-left: 40px;
+}
+.Track .Want a:hover {
+  background-color: #fff;
+  text-decoration: none;
+}
+
+.bottom a {
+  color: #444;
+  text-decoration: underline;
+}
+.bottom a:hover {
+  color: #000;
+  text-decoration: none;
+}
+.bottom .buttons .col-sm-8 .row {
+  padding: 0;
+}
+.bottom .left {
+  margin-top: 24px;
+}
+.bottom .left button {
+  color: #000;
+  background-color: #fff;
+  border: 1px solid #000;
+  height: 44px;
+  font-size: 12px;
+  padding: 0 30px;
+}
+.bottom .left button:hover {
+  background-color: #f9f9f9;
+}
+.bottom .right {
+  margin-top: 24px;
+  margin-bottom: 30px;
+}
+.bottom .right button {
+  color: #fff;
+  background-color: #000;
+  height: 44px;
+  font-size: 12px;
+  padding: 0 40px;
+}
+.bottom .right button:hover {
+  background-color: #222;
+}
+
+/* --------------------------------- Common style --------------------------------- */
+.Common {
+  background-color: #f9f9f9;
+  padding-bottom: 60px;
+  margin: 0 -15px;
+}
+.Common h1 {
+  margin: 120px 20px 0px;
+  font-size: 48px;
+  font-weight: 100;
+}
+.Common h5 {
+  font-size: 24px;
+  font-weight: 100;
+  color: #7a8a9d;
+}
+.Common .box {
+  background-color: #fff;
+  padding: 20px 40px 40px;
+  margin-top: 18px;
+}
+.Common .box h3 {
+  margin-bottom: 20px;
+}
+.Common .box p {
+  line-height: 24px;
+  font-size: 16px;
+  margin-bottom: 30px;
+}
+.Common .box a {
+  font-size: 16px;
+  font-weight: 600;
+  color: #444;
+  text-decoration: underline;
+}
+.Common .box a:hover {
+  text-decoration: none;
+}
+.Common .box button {
+  font-size: 14px;
+  color: #444;
+  border: 1px solid #444;
+  border-radius: 20px;
+  padding: 10px 30px;
+  background-color: #fff;
+}
+.Common .box button:hover {
+  text-decoration: none;
+  background-color: #f4f4f4;
+}
+.Common .box #Report {
+  font-size: 14px;
+  text-decoration: none;
+}
+.Common .box #Report:hover {
+  text-decoration: underline;
+}
+.Common .box ul {
+  padding-left: 18px;
+}
+.Common .up {
+  margin-top: 60px;
+}
+
+/* --------------------------------- Contact_Us style --------------------------------- */
+.Contact_Us {
+  background-color: #f9f9f9;
+  padding-bottom: 60px;
+  margin: 0 -15px;
+}
+.Contact_Us h1 {
+  margin: 120px 20px 0px;
+}
+.Contact_Us h5 {
+  font-size: 16px;
+  color: #7a8a9d;
+}
+.Contact_Us .my_table {
+  margin-top: 60px;
+  background-color: #fff;
+}
+.Contact_Us .my_table h4 {
+  padding: 12px;
+  font-weight: 100;
+}
+.Contact_Us .my_table ul {
+  margin: 0 -15px;
+  padding: 0;
+}
+.Contact_Us .my_table ul li {
+  list-style-type: none;
+  padding: 16px 30px;
+  border-top: 1px solid #edeeef;
+}
+.Contact_Us .my_table ul li a {
+  color: #000;
+}
+.Contact_Us .my_table ul .active {
+  background-color: #f2f2f2;
+}
+.Contact_Us .my_table .br {
+  background-color: #f9f9f9;
+  height: 50px;
+  margin: 0 -15px;
+}
+.Contact_Us .my_table .box {
+  margin: 0 -15px;
+  border: 1px solid #000;
+  background-color: #f9f9f9;
+  padding: 10px;
+}
+.Contact_Us .my_table .box a {
+  color: #000;
+}
+.Contact_Us .my_table .box h4 span {
+  margin-right: 20px;
+}
+.Contact_Us .content {
+  margin: 60px 0;
+  padding-left: 30px;
+}
+.Contact_Us .content h3 {
+  margin: 0 0 20px;
+}
+.Contact_Us .content select {
+  width: 100%;
+  outline: none;
+  border: 1px solid #888;
+  border-radius: 0px;
+  height: 58px;
+  padding-left: 20px;
+  margin-top: 0px;
+  margin-bottom: 10px;
+  color: #000;
+}
+.Contact_Us .content select:focus {
+  outline: none;
+  box-shadow: 0 0;
+  border-color: #000;
+}
+.Contact_Us .content select:focus option {
+  border: none;
+  outline: none;
+}
+.Contact_Us .content input {
+  width: 100%;
+  outline: none;
+  border: 1px solid #888;
+  height: 58px;
+  padding-left: 20px;
+  margin-bottom: 10px;
+  color: #000;
+}
+.Contact_Us .content input:focus {
+  border-color: #000;
+}
+.Contact_Us .content textarea {
+  width: 100%;
+  outline: none;
+  border: 1px solid #888;
+  height: 200px;
+  border-radius: 0px;
+  padding-left: 20px;
+  padding-top: 16px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: #000;
+}
+.Contact_Us .content textarea:focus {
+  outline: none;
+  box-shadow: 0 0;
+  border-color: #000;
+}
+.Contact_Us .content button {
+  color: #fff;
+  background-color: #000;
+  padding: 10px 70px;
+  margin-top: 16px;
+  border-radius: 30px;
+  font-size: 12px;
+  border: none;
+  outline: none;
+}
+.Contact_Us .content button:hover {
+  background-color: #222;
+}
+
+/* --------------------------------- FAQs_3 style --------------------------------- */
+.FAQs_3 p {
+  padding-bottom: 0;
+  line-height: 10px;
+}
+.FAQs_3 .text-right p {
+  font-weight: 600;
+}
+.FAQs_3 hr {
+  border-top: 1px solid #7c7c7c;
+}
+
+/* --------------------------------- FAQs_5 style --------------------------------- */
+.gray_content {
+  background-color: #7c7c7c;
+  height: 370px;
+  margin-bottom: 40px;
+}
+
+/* --------------------------------- Insurance terms style --------------------------------- */
+.terms {
+  background-color: #f9f9f9;
+  padding-bottom: 60px;
+  margin: 0 -15px;
+}
+.terms h1 {
+  margin: 120px 0 0px;
+}
+.terms h5 {
+  font-size: 16px;
+  color: #7a8a9d;
+}
+.terms hr {
+  margin-top: -24px;
+  width: 90%;
+  border-top: 1px solid #7c7c7c;
+  margin-bottom: 40px;
+}
+.terms p {
+  margin-bottom: 30px;
+}
+.terms p.content {
+  margin: -30px 0 0 80px;
+}
+.terms #title {
+  margin-top: 80px;
+}
+
+.footer_Contact_Us {
+  background-color: #eaeaea;
+  margin: 0 -15px;
+  padding: 60px;
+}
+.footer_Contact_Us p {
+  font-size: 16px;
+}
+.footer_Contact_Us a {
+  color: #444;
+  text-decoration: underline;
+}
+.footer_Contact_Us a:hover {
+  color: #000;
+  text-decoration: none;
+}
+
+/* --------------------------------- Policy_1 style --------------------------------- */
+.Policy_1 {
+  padding: 80px 0;
+  background-color: #edeeef;
+  margin: 0 -15px;
+}
+.Policy_1 .inputs input {
+  width: 100%;
+  outline: none;
+  border: 1px solid #888;
+  height: 58px;
+  padding-left: 20px;
+  margin-bottom: 10px;
+  color: #000;
+}
+.Policy_1 .inputs input:focus {
+  border-color: #000;
+}
+.Policy_1 #checkbox {
+  margin-right: 14px;
+}
+.Policy_1 label {
+  margin-right: 20px;
+}
+.Policy_1 a {
+  color: #444;
+  text-decoration: underline;
+}
+.Policy_1 a:hover {
+  color: #000;
+  text-decoration: none;
+}
+.Policy_1 button {
+  color: #fff;
+  background-color: #000;
+  padding: 10px 70px;
+  margin-top: 16px;
+  border-radius: 30px;
+  font-size: 12px;
+  border: none;
+  outline: none;
+}
+.Policy_1 button:hover {
+  background-color: #222;
+}
+
+.first_time {
+  margin: 0 -15px;
+  padding: 30px 20px 15px;
+  background-color: #e5e5e5;
+}
+.first_time p {
+  font-size: 16px;
+}
+.first_time a {
+  color: #000;
+  font-weight: 600;
+}
+
+.Managing {
+  padding: 30px 0 0;
+}
+.Managing .container {
+  margin-top: 40px;
+}
+.Managing .box {
+  border: 2px solid #8e8e8e;
+  padding: 40px 50px;
+  margin-bottom: 50px;
+}
+.Managing .box button {
+  margin-top: 24px;
+  background: none;
+  padding: 6px 30px;
+  border: 1px solid #000;
+  border-radius: 20px;
+  outline: none;
+}
+.Managing .box button:hover {
+  background-color: #edeeef;
+}
+.Managing .first_box {
+  margin-top: 2px;
+  border: none;
+  background-color: #edeeef;
+}
+.Managing .first_box button:hover {
+  background-color: #fff;
+}
+
+.qualify {
+  margin: 0 -15px;
+  padding: 30px 20px 40px;
+  background-color: #e5e5e5;
+}
+.qualify button {
+  background-color: #fff;
+  padding: 6px 20px;
+  border: none;
+  margin: 14px 6px 0;
+  outline: none;
+}
+.qualify button:hover {
+  background-color: #f9f9f9;
+}
+
+/* --------------------------------- Policy_1 style --------------------------------- */
+.Policy_2 {
+  padding: 80px 0;
+  background-color: #edeeef;
+  margin: 0 -15px;
+}
+.Policy_2 input {
+  width: 100%;
+  width: 100%;
+  outline: none;
+  border: 1px solid #000;
+  height: 58px;
+  padding-left: 20px;
+  margin-bottom: 10px;
+  margin-top: 30px;
+  color: #000;
+}
+.Policy_2 a {
+  color: #444;
+  text-decoration: underline;
+}
+.Policy_2 a:hover {
+  color: #000;
+  text-decoration: none;
+}
+.Policy_2 button {
+  margin-top: 40px;
+  background-color: #000;
+  padding: 6px 60px;
+  color: #fff;
+  border: none;
+  border-radius: 20px;
+  outline: none;
+}
+.Policy_2 button:hover {
+  background-color: #222;
+}
+
+.Dental {
+  padding: 30px;
+  background-color: #f9f9f9;
+}
+
+/* --------------------------------- Policy_3 style --------------------------------- */
+.Policy_3 {
+  padding: 80px 0;
+  background-color: #f9f9f9;
+  margin: 0 -15px;
+}
+.Policy_3 #title {
+  margin-bottom: 20px;
+}
+.Policy_3 .box {
+  margin-bottom: 10px;
+  width: 100%;
+  height: auto;
+  padding: 20px;
+  background-color: #fff;
+}
+.Policy_3 .box .img {
+  margin: auto;
+  text-align: center;
+  width: 100%;
+}
+.Policy_3 .box img {
+  width: 80px;
+  margin: auto;
+}
+.Policy_3 .box h4, .Policy_3 .box h5, .Policy_3 .box p {
+  margin-left: 10px;
+}
+.Policy_3 .box h4, .Policy_3 .box h5 {
+  font-weight: 600;
+}
+.Policy_3 .box h4 span, .Policy_3 .box h5 span {
+  margin-left: 30px;
+  font-weight: 100;
+}
+.Policy_3 .box button {
+  background-color: #edeeef;
+  color: #aaa;
+  padding: 6px 20px;
+  border: none;
+  border-radius: 20px;
+  outline: none;
+  margin-top: 30px;
+}
+.Policy_3 .box button:hover {
+  background-color: #ddd;
+}
+.Policy_3 .box a {
+  color: #000;
+  text-decoration: underline;
+}
+.Policy_3 .box a:hover {
+  text-decoration: none;
+}
+.Policy_3 .box_2 {
+  background-color: #e5e5e5;
+  margin-top: 40px;
+  padding: 34px 20px;
+}
+.Policy_3 .box_2 a {
+  color: #444;
+  text-decoration: underline;
+}
+.Policy_3 .box_2 a:hover {
+  color: #000;
+  text-decoration: none;
+}
+.Policy_3 .box_2 button {
+  background-color: #000;
+  color: #fff;
+  margin-top: 50px;
+}
+.Policy_3 .box_2 button:hover {
+  background-color: #222;
+}
+.Policy_3 .box_12 {
+  margin-top: 128px;
+}
+.Policy_3 .box_21 {
+  margin-top: 0px;
+}
+.Policy_3 .border {
+  border: 1px solid #000;
+}
+.Policy_3 .border #second_button {
+  margin-top: 0;
+  color: #fff;
+  background-color: #000;
+}
+.Policy_3 .border #second_button:hover {
+  background-color: #222;
+}
+.Policy_3 .border span {
+  margin-left: 20px;
+  color: red;
+  font-size: 12px;
+}
+.Policy_3 .border_25 span {
+  margin-left: 0px;
+  color: red;
+}
+.Policy_3 .my_table {
+  padding: 2px 15px;
+  background-color: #fff;
+}
+.Policy_3 .my_table h4 {
+  padding: 12px;
+  font-weight: 100;
+}
+.Policy_3 .my_table ul {
+  margin: 0 -15px;
+  padding: 0;
+  border-bottom: 20px solid #f9f9f9;
+}
+.Policy_3 .my_table ul li {
+  list-style-type: none;
+  padding: 12.8px 30px;
+  border-top: 1px solid #edeeef;
+}
+.Policy_3 .my_table ul li a {
+  color: #000;
+}
+.Policy_3 .my_table ul .active {
+  background-color: #f2f2f2;
+}
+.Policy_3 .my_table ul #without {
+  border: none;
+  margin-top: 11px;
+}
+.Policy_3 .my_table .my_box {
+  padding-bottom: 21px;
+}
+.Policy_3 .my_table .my_box h4 {
+  margin-bottom: 0;
+}
+.Policy_3 .my_table .my_box p {
+  font-size: 12px;
+  margin-left: 14px;
+}
+
+.Need_help {
+  padding: 20px;
+  background-color: #e5e5e5;
+  margin: 0 -15px;
+}
+
+/* --------------------------------- Policy_4 style --------------------------------- */
+.Policy_4 {
+  padding: 80px 0;
+  background-color: #f9f9f9;
+  margin: 0 -15px;
+}
+.Policy_4 #title {
+  margin-bottom: 40px;
+}
+.Policy_4 ul {
+  margin: 0 -15px;
+  padding: 0;
+  background-color: #fff;
+  border-right: 12px solid #d8d8d8;
+}
+.Policy_4 ul li {
+  list-style-type: none;
+  padding: 90px 30px;
+  border-top: 1px solid #edeeef;
+}
+.Policy_4 ul li a {
+  color: #000;
+}
+.Policy_4 ul img {
+  float: left;
+  margin: -10px 6%;
+}
+.Policy_4 ul .active {
+  background-color: #d8d8d8;
+}
+.Policy_4 ul #without {
+  border: none;
+}
+.Policy_4 .col-sm-8, .Policy_4 .col-sm-6 {
+  padding: 0;
+}
+.Policy_4 .over {
+  width: 100%;
+  background-color: #edefef;
+  padding: 20px;
+}
+.Policy_4 .over img {
+  width: 60px;
+}
+.Policy_4 .over p {
+  font-size: 12px;
+}
+.Policy_4 .over p a {
+  color: #444;
+  text-decoration: underline;
+}
+.Policy_4 .over p a:hover {
+  color: #000;
+  text-decoration: none;
+}
+.Policy_4 .over button {
+  background: none;
+  border: 1px solid #000;
+  padding: 4px 20px;
+  border-radius: 20px;
+  margin: 8px 0;
+  font-size: 10px;
+  outline: none;
+}
+.Policy_4 .over button:hover {
+  background-color: #fff;
+}
+.Policy_4 .Coverage {
+  background-color: #fff;
+  padding: 27.5px;
+}
+.Policy_4 .Coverage h4 {
+  color: #a0a0a0;
+  margin-bottom: 0;
+}
+.Policy_4 .Coverage h5 {
+  font-weight: 600;
+  margin-top: 24px;
+}
+.Policy_4 .Coverage #top {
+  margin-top: 24px;
+}
+.Policy_4 .Coverage a {
+  color: #444;
+  text-decoration: underline;
+  font-weight: 600;
+}
+
+.my_bottom {
+  margin-top: 20px;
+}
+.my_bottom .col-sm-4 {
+  padding: 0;
+}
+.my_bottom .border {
+  border: 1px solid #000;
+}
+.my_bottom .border .above {
+  background-color: #fff;
+  padding: 2px 0;
+  padding-left: 16px;
+}
+.my_bottom .border .bottom {
+  padding-left: 16px;
+  padding-bottom: 10px;
+}
+.my_bottom .border .bottom img {
+  width: 40px;
+  float: left;
+  margin-right: 10px;
+}
+.my_bottom .border .bottom h5 {
+  font-weight: 600;
+}
+.my_bottom .un_border {
+  background-color: #fff;
+  padding: 20px 20px 16px;
+  border-left: 16px solid #f9f9f9;
+}
+.my_bottom .un_border p {
+  font-size: 12px;
+}
+.my_bottom .un_border a {
+  color: #444;
+  text-decoration: underline;
+}
+.my_bottom .un_border a:hover {
+  color: #000;
+  text-decoration: none;
+}
+
+/* --------------------------------- Policy_5 style --------------------------------- */
+.Coverage .col-sm-8, .Coverage .col-sm-6 {
+  padding-left: 14px;
+}
+.Coverage .first_row {
+  margin: 10px 2px 0;
+  padding-bottom: 4px;
+  background-color: #f2f2f2;
+}
+.Coverage .first_row h5 {
+  margin-top: 14px;
+}
+.Coverage .second_row {
+  margin: 0 2px 20px;
+  padding-bottom: 4px;
+  background-color: #f9f9f9;
+}
+.Coverage .second_row h5 {
+  margin-top: 14px;
+}
+.Coverage .third_row {
+  margin: 10px 0 0;
+  background-color: #f2f2f2;
+}
+.Coverage .third_row h5 {
+  margin-top: 14px;
+}
+.Coverage .third_row .box {
+  border-left: 2px solid #fff;
+  border-right: 2px solid #fff;
+  padding-bottom: 4px;
+}
+.Coverage .fourth_row {
+  margin: 0 0 10px;
+  background-color: #f9f9f9;
+}
+.Coverage .fourth_row h5 {
+  margin-top: 14px;
+}
+.Coverage .fourth_row .box {
+  height: 270px;
+  border-left: 2px solid #fff;
+  border-right: 2px solid #fff;
+  padding-bottom: 4px;
+}
+.Coverage .fourth_row .box h5 {
+  margin-bottom: 0;
+}
+.Coverage .fourth_row .box #over {
+  margin-top: 12px;
+}
+.Coverage .fourth_row p {
+  font-size: 12px;
+}
+
+/* --------------------------------- Policy_7 style --------------------------------- */
+.Coverage .Get_ID_Card {
+  background-color: #fff;
+  height: 487px;
+}
+.Coverage .Get_ID_Card .Replace {
+  padding: 16px 20px 8px;
+  margin-top: 20px;
+}
+.Coverage .Get_ID_Card .gray {
+  background-color: #edefef;
+}
+.Coverage .Get_ID_Card .border {
+  border: 1px solid #000;
+}
+.Coverage .Get_ID_Card button {
+  color: #fff;
+  background-color: #000;
+  border: none;
+  border-radius: 20px;
+  outline: none;
+  padding: 6px 30px;
+  margin-top: 40px;
+}
+.Coverage .Get_ID_Card button:hover {
+  background-color: #222;
+}
+
+/* --------------------------------- Policy_8 style --------------------------------- */
+.Coverage .Get_ID_Card #black {
+  color: #000;
+  margin-top: 20px;
+}
+.Coverage .Get_ID_Card .Address input {
+  padding: 10px 20px;
+  width: 100%;
+  margin-top: 10px;
+  height: 44px;
+}
+.Coverage .Get_ID_Card .Address select {
+  padding: 10px 20px;
+  width: 100%;
+  margin-top: 10px;
+  border-radius: 0;
+  height: 44px;
+  border: 1px solid #a3a3a3;
+}
+.Coverage .Get_ID_Card #checkbox {
+  float: left;
+  margin-right: 10px;
+}
+.Coverage .Get_ID_Card .top {
+  margin-top: 20px;
+}
+.Coverage .Get_ID_Card .top_1 {
+  margin-top: 26px;
+}
+.Coverage .Get_ID_Card .top_2 {
+  margin-top: 60px;
+}
+
+/* --------------------------------- Policy_13 style --------------------------------- */
+.Policy_13 {
+  padding: 80px 0;
+  background-color: #f9f9f9;
+  margin: 0 -15px;
+}
+.Policy_13 #title {
+  margin-bottom: 40px;
+}
+.Policy_13 ul {
+  margin: 0 -15px;
+  padding: 0;
+  background-color: #fff;
+  border-right: 12px solid #d8d8d8;
+}
+.Policy_13 ul li {
+  list-style-type: none;
+  padding: 62.5px 30px;
+  border-top: 1px solid #edeeef;
+}
+.Policy_13 ul li a {
+  color: #000;
+}
+.Policy_13 ul img {
+  float: left;
+  margin: -10px 6%;
+}
+.Policy_13 ul .active {
+  background-color: #d8d8d8;
+}
+.Policy_13 ul #without {
+  border: none;
+}
+.Policy_13 .col-sm-8, .Policy_13 .col-sm-6 {
+  padding: 0;
+}
+.Policy_13 .over {
+  width: 100%;
+  background-color: #edefef;
+  padding: 20px;
+}
+.Policy_13 .over img {
+  width: 60px;
+}
+.Policy_13 .over p {
+  font-size: 12px;
+}
+.Policy_13 .over p a {
+  color: #444;
+  text-decoration: underline;
+}
+.Policy_13 .over p a:hover {
+  color: #000;
+  text-decoration: none;
+}
+.Policy_13 .over button {
+  background: none;
+  border: 1px solid #000;
+  padding: 4px 20px;
+  border-radius: 20px;
+  margin: 8px 0;
+  font-size: 10px;
+  outline: none;
+}
+.Policy_13 .over button:hover {
+  background-color: #fff;
+}
+.Policy_13 .Coverage {
+  background-color: #fff;
+  padding: 27.5px;
+}
+.Policy_13 .Coverage h4 {
+  color: #a0a0a0;
+  margin-bottom: 0;
+}
+.Policy_13 .Coverage h5 {
+  font-weight: 600;
+  margin-top: 24px;
+}
+.Policy_13 .Coverage #top {
+  margin-top: 24px;
+}
+.Policy_13 .Coverage a {
+  color: #444;
+  text-decoration: underline;
+  font-weight: 600;
+}
+
+.my_bottom_13 {
+  margin-top: 20px;
+}
+.my_bottom_13 .col-sm-4 {
+  padding: 0;
+}
+.my_bottom_13 .border {
+  border: 1px solid #000;
+}
+.my_bottom_13 .border .above {
+  background-color: #fff;
+  padding: 2px 0;
+  padding-left: 16px;
+}
+.my_bottom_13 .border .bottom {
+  padding-left: 16px;
+  padding-bottom: 10px;
+}
+.my_bottom_13 .border .bottom img {
+  width: 40px;
+  float: left;
+  margin-right: 10px;
+}
+.my_bottom_13 .border .bottom h5 {
+  font-weight: 600;
+}
+.my_bottom_13 .un_border {
+  background-color: #fff;
+  padding: 20px 20px 16px;
+  border-left: 16px solid #f9f9f9;
+}
+.my_bottom_13 .un_border p {
+  font-size: 12px;
+}
+.my_bottom_13 .un_border a {
+  color: #444;
+  text-decoration: underline;
+}
+.my_bottom_13 .un_border a:hover {
+  color: #000;
+  text-decoration: none;
+}
+.my_bottom_13 .un_border_right {
+  background-color: #fff;
+  padding: 20px 20px 16px;
+}
+.my_bottom_13 .un_border_right p {
+  font-size: 12px;
+}
+
+/* --------------------------------- Policy_13 style --------------------------------- */
+.Policy_13 .Coverage_14 {
+  height: 552px;
+  background-color: #fff;
+  padding: 27.5px;
+}
+.Policy_13 .Coverage_14 h4 {
+  color: #a0a0a0;
+  margin-bottom: 0;
+}
+.Policy_13 .Coverage_14 h5 {
+  font-weight: 600;
+  margin-top: 24px;
+}
+.Policy_13 .Coverage_14 #top {
+  margin-top: 24px;
+}
+.Policy_13 .Coverage_14 a {
+  color: #444;
+  text-decoration: underline;
+  font-weight: 600;
+}
+.Policy_13 .table {
+  border: none;
+  padding-bottom: 20px;
+}
+.Policy_13 .table th {
+  border: none;
+  background-color: #edefef;
+  text-align: center;
+}
+.Policy_13 .table td {
+  border-bottom: none;
+  border-top: none;
+  background-color: #f9f9f9;
+  padding: 2px;
+}
+.Policy_13 .table #border {
+  border: none;
+}
+
+@media only screen and (max-width: 763px) {
+  .Policy_13 .Coverage_14 {
+    height: 552px;
+    background-color: #000;
+    padding: 27.5px;
+  }
+  .Policy_13 .Coverage_14 h4 {
+    color: #a0a0a0;
+    margin-bottom: 0;
+  }
+  .Policy_13 .Coverage_14 h5 {
+    font-weight: 600;
+    margin-top: 24px;
+  }
+  .Policy_13 .Coverage_14 #top {
+    margin-top: 24px;
+  }
+  .Policy_13 .Coverage_14 a {
+    color: #444;
+    text-decoration: underline;
+    font-weight: 600;
+  }
+  .Policy_13 .table {
+    border: none;
+    padding-bottom: 20px;
+  }
+  .Policy_13 .table th {
+    border: none;
+    background-color: #edefef;
+    text-align: center;
+  }
+  .Policy_13 .table td {
+    border-bottom: none;
+    border-top: none;
+    background-color: #f9f9f9;
+    padding: 2px;
+  }
+  .Policy_13 .table #border {
+    border: none;
+  }
+}
+
+/*# sourceMappingURL=stylw.css.map */
